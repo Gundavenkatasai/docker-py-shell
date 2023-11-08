@@ -9,6 +9,7 @@ if len(argv) < 2:
 
 if argv[1] in whitelist:
     command = ' '.join(argv[1:])
+    print(command)
     if len(command) > 20:
         print("Command too long")
         exit(1)
